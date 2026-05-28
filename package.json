@@ -1,0 +1,14 @@
+{
+  "name": "azure-shopping-app",
+  "version": "1.0.0",
+  "description": "A CRUD shopping catalog app deployed to Azure",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@azure/cosmos": "4.2.0",
+    "@azure/identity": "^4.13.1",
+    "express": "4.21.2"
+  }
+}
